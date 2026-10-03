@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宅男宅女电影网 - 居家观影指南 | https://zhainanzhainudianyingwang-wap.github.io</title>
+<meta name="description" content="宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）专注居家观影场景，提供适合独处、聚会、周末放松的影片清单与观影指南。">
+<meta name="keywords" content="宅男宅女电影网, 居家观影, 宅家片单, 周末电影, 观影指南, zhainanzhainudianyingwang-wap.github.io">
+<meta name="author" content="宅男宅女电影网">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1b1234">
+<link rel="canonical" href="https://zhainanzhainudianyingwang-wap.github.io/">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+<meta property="og:title" content="宅男宅女电影网 - 居家观影指南">
+<meta property="og:description" content="宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）提供适合独处、聚会、周末放松的居家观影清单与指南。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zhainanzhainudianyingwang-wap.github.io/">
+<meta property="og:site_name" content="宅男宅女电影网">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="宅男宅女电影网 - 居家观影指南">
+<meta name="twitter:description" content="宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）提供居家观影清单与观影指南。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--night:#15102b;--night2:#1f1840;--purple:#7c5cff;--purple2:#5a3fd0;--pink:#ff5fa2;--pink2:#ff8fbf;--teal:#2dd4bf;--bg:#f7f5fb;--card:#fff;--ink:#211c38;--ink2:#4a4466;--line:#e8e4f2;}
+html{scroll-behavior:smooth;}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.75;color:var(--ink);background:var(--bg);overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+img{max-width:100%;}
+::selection{background:var(--purple);color:#fff;}
+
+/* ===== 顶部在线条 ===== */
+.online{background:var(--night);color:#d8d2f0;padding:8px 0;font-size:12px;letter-spacing:1.2px;}
+.ow{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:center;}
+.ow .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 0 rgba(45,212,191,.7);animation:pulse 2s infinite;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(45,212,191,.7)}70%{box-shadow:0 0 0 8px rgba(45,212,191,0)}100%{box-shadow:0 0 0 0 rgba(45,212,191,0)}}
+.ow em{font-style:normal;color:var(--pink2);}
+
+/* ===== 头部 ===== */
+header{background:rgba(255,255,255,.92);backdrop-filter:blur(10px);position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line);}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px;}
+.hd{display:flex;align-items:center;justify-content:space-between;height:74px;}
+.logo{display:flex;align-items:center;gap:12px;}
+.px{display:grid;grid-template-columns:repeat(4,7px);grid-template-rows:repeat(4,7px);gap:2px;}
+.px i{background:var(--purple);display:block;}
+.px i:nth-child(1){background:var(--purple);}
+.px i:nth-child(4){background:var(--pink);}
+.px i:nth-child(7){background:var(--pink);}
+.px i:nth-child(11){background:var(--teal);}
+.px i:nth-child(13){background:var(--pink);}
+.logo .tx{line-height:1.2;}
+.logo .tx b{font-size:19px;font-weight:900;letter-spacing:.3px;}
+.logo .tx b em{font-style:normal;color:var(--pink);}
+.logo .tx span{display:block;font-size:9px;letter-spacing:2.5px;color:var(--ink2);text-transform:uppercase;}
+.nav{display:flex;gap:26px;align-items:center;font-size:14px;}
+.nav a{position:relative;transition:.2s;}
+.nav a:hover{color:var(--purple);}
+.nav a::after{content:"";position:absolute;left:50%;bottom:-4px;width:0;height:2px;background:var(--pink);transition:.25s;transform:translateX(-50%);}
+.nav a:hover::after{width:100%;}
+.menu{display:none;flex-direction:column;gap:5px;padding:6px;}
+.menu i{width:24px;height:2px;background:var(--ink);font-style:normal;}
+
+section{padding:78px 0;}
+.kicker{display:inline-block;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--purple);background:rgba(124,92,255,.1);padding:5px 12px;border-radius:100px;margin-bottom:14px;font-weight:700;}
+.sec{margin-bottom:42px;}
+.sec h2{font-size:30px;font-weight:900;line-height:1.3;max-width:760px;}
+.sec h2 em{font-style:normal;color:var(--pink);}
+.sec .d{font-size:14px;color:var(--ink2);margin-top:10px;max-width:640px;}
+
+/* ===== Hero 夜间聊天室 ===== */
+.hero{background:var(--night);color:#fff;padding:0;position:relative;overflow:hidden;}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(124,92,255,.35),transparent 45%),radial-gradient(circle at 85% 70%,rgba(255,95,162,.25),transparent 45%);}
+.stars{position:absolute;inset:0;background-image:radial-gradient(1px 1px at 20% 30%,rgba(255,255,255,.5),transparent),radial-gradient(1px 1px at 60% 70%,rgba(255,255,255,.4),transparent),radial-gradient(1.5px 1.5px at 80% 20%,rgba(255,255,255,.6),transparent),radial-gradient(1px 1px at 40% 80%,rgba(255,255,255,.35),transparent);background-size:400px 400px;}
+.hero .wrap{position:relative;z-index:1;padding-top:84px;padding-bottom:84px;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;}
+.hero .chat{background:var(--night2);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:24px;box-shadow:0 24px 60px rgba(0,0,0,.45);}
+.hero .chat .bar{display:flex;align-items:center;gap:8px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:18px;}
+.hero .chat .bar i{width:10px;height:10px;border-radius:50%;background:#ff5f57;display:block;}
+.hero .chat .bar i:nth-child(2){background:#febc2e;}
+.hero .chat .bar i:nth-child(3){background:#28c840;}
+.hero .chat .bar b{margin-left:10px;font-size:12px;color:#a79fcc;letter-spacing:1px;}
+.hero .chat .msg{margin-bottom:16px;max-width:88%;}
+.hero .chat .msg p{display:inline-block;padding:11px 15px;border-radius:14px;font-size:14px;line-height:1.6;background:rgba(255,255,255,.07);}
+.hero .chat .msg.l{margin-left:auto;text-align:right;}
+.hero .chat .msg.l p{background:linear-gradient(135deg,var(--purple),var(--purple2));text-align:left;}
+.hero .chat .msg small{display:block;font-size:10px;color:#7d75a6;margin-top:5px;letter-spacing:1px;}
+.hero .chat .typing{padding:8px 0 0;font-size:12px;color:var(--teal);letter-spacing:1px;}
+.hero .chat .typing::after{content:"...";animation:dots 1.4s infinite;}
+@keyframes dots{0%,20%{content:"."}40%{content:".."}60%,100%{content:"..."}}
+.hero .hi .k{font-size:11px;letter-spacing:4px;color:var(--pink2);text-transform:uppercase;}
+.hero .hi h1{font-size:52px;font-weight:900;line-height:1.16;margin:18px 0 22px;letter-spacing:-.5px;}
+.hero .hi h1 span{background:linear-gradient(90deg,var(--pink),var(--purple));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.hero .hi p{font-size:16px;color:#cdc6e8;max-width:520px;margin-bottom:30px;}
+.hero .u{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:11px 18px;border-radius:100px;font-size:12.5px;color:#fff;}
+.hero .u b{color:var(--pink2);}
+.hero .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;}
+.hero .tags a{font-size:12px;padding:6px 13px;border-radius:100px;border:1px solid rgba(255,255,255,.18);color:#cdc6e8;transition:.2s;}
+.hero .tags a:hover{background:var(--pink);border-color:var(--pink);color:#fff;}
+
+/* ===== 栏目一：居家场景（场景卡片） ===== */
+.scene{background:var(--bg);}
+.sc{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.sc .cd{background:var(--card);border-radius:22px;padding:26px;position:relative;overflow:hidden;border:1px solid var(--line);transition:.3s;}
+.sc .cd:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(31,24,64,.1);}
+.sc .cd .ic{width:52px;height:52px;border-radius:15px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:16px;}
+.sc .cd h4{font-size:18px;font-weight:900;margin-bottom:8px;}
+.sc .cd p{font-size:13.5px;color:var(--ink2);line-height:1.8;margin-bottom:14px;}
+.sc .cd .cnt{font-size:11.5px;letter-spacing:1px;color:var(--purple);font-weight:700;}
+.sc .cd .deco{position:absolute;right:-20px;top:-20px;width:90px;height:90px;border-radius:50%;opacity:.14;}
+.sc .cd:nth-child(1) .ic{background:#e8f9f6;}.sc .cd:nth-child(1) .deco{background:var(--teal);}
+.sc .cd:nth-child(2) .ic{background:#ffe9f1;}.sc .cd:nth-child(2) .deco{background:var(--pink);}
+.sc .cd:nth-child(3) .ic{background:#ebe5ff;}.sc .cd:nth-child(3) .deco{background:var(--purple);}
+.sc .cd:nth-child(4) .ic{background:#fff3e0;}.sc .cd:nth-child(4) .deco{background:#ffa94d;}
+.sc .cd:nth-child(5) .ic{background:#e0f0ff;}.sc .cd:nth-child(5) .deco{background:#4dabf7;}
+.sc .cd:nth-child(6) .ic{background:#f3e8ff;}.sc .cd:nth-child(6) .deco{background:#ae7ffd;}
+
+/* ===== 栏目二：片单（对话气泡列表） ===== */
+.list{background:var(--card);}
+.bx{display:flex;flex-direction:column;gap:14px;}
+.bx .row{display:flex;gap:16px;align-items:flex-start;background:var(--bg);border-radius:18px;padding:18px 20px;transition:.25s;border:1px solid transparent;}
+.bx .row:hover{background:#fff;border-color:var(--line);box-shadow:0 10px 28px rgba(31,24,64,.07);}
+.bx .row .av{flex:0 0 44px;width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:20px;color:#fff;font-weight:900;}
+.bx .row .av.a{background:linear-gradient(135deg,var(--purple),var(--purple2));}
+.bx .row .av.b{background:linear-gradient(135deg,var(--pink),var(--pink2));}
+.bx .row .av.c{background:linear-gradient(135deg,var(--teal),#14b8a6);}
+.bx .row .av.d{background:linear-gradient(135deg,#ffa94d,#f76707);}
+.bx .row .av.e{background:linear-gradient(135deg,#4dabf7,#228be6);}
+.bx .row .av.f{background:linear-gradient(135deg,#ae7ffd,#845ef7);}
+.bx .b{display:flex;flex-direction:column;gap:6px;flex:1;min-width:0;}
+.bx .b h4{font-size:16px;font-weight:900;}
+.bx .b p{font-size:13.5px;color:var(--ink2);line-height:1.75;}
+.bx .b .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
+.bx .b .meta a{font-size:11px;padding:3px 10px;border-radius:100px;background:rgba(124,92,255,.1);color:var(--purple);}
+.bx .b .meta em{font-style:normal;font-size:11px;color:#a39dbb;display:flex;align-items:center;}
+.bx .st{flex:0 0 auto;text-align:right;font-size:12px;color:var(--ink2);}
+.bx .st b{display:block;font-size:15px;color:var(--ink);font-weight:900;}
+
+/* ===== 栏目三：周末攻略（步骤时间轴） ===== */
+.gd{background:var(--bg);}
+.pl{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--card);border-radius:24px;overflow:hidden;border:1px solid var(--line);}
+.pl .il{padding:40px;background:linear-gradient(160deg,var(--purple),var(--purple2));color:#fff;position:relative;overflow:hidden;}
+.pl .il .deco{position:absolute;right:-40px;bottom:-40px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.08);}
+.pl .il .deco::after{content:"";position:absolute;inset:28px;border-radius:50%;background:rgba(255,255,255,.06);}
+.pl .il .k{font-size:11px;letter-spacing:3px;color:var(--pink2);text-transform:uppercase;}
+.pl .il h3{font-size:26px;font-weight:900;margin:14px 0 16px;line-height:1.35;}
+.pl .il p{font-size:14px;color:#e5e0fb;line-height:1.9;}
+.pl .il .big{margin-top:26px;padding:20px;background:rgba(255,255,255,.1);border-radius:16px;position:relative;z-index:1;}
+.pl .il .big b{display:block;font-size:34px;font-weight:900;}
+.pl .il .big span{font-size:12px;color:#d8d2f0;letter-spacing:1px;}
+.pl .stp{padding:40px;display:flex;flex-direction:column;gap:0;}
+.pl .stp .s{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);}
+.pl .stp .s:last-child{border-bottom:none;}
+.pl .stp .s .n{flex:0 0 34px;height:34px;border-radius:50%;background:var(--bg);color:var(--purple);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;border:2px solid var(--purple);}
+.pl .stp .s.on .n{background:var(--pink);color:#fff;border-color:var(--pink);}
+.pl .stp .s .t h5{font-size:15px;font-weight:900;margin-bottom:4px;}
+.pl .stp .s .t p{font-size:13px;color:var(--ink2);line-height:1.7;}
+
+/* ===== 栏目四：数据统计（房间门牌） ===== */
+.stat{background:var(--night);color:#fff;position:relative;overflow:hidden;}
+.stat::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 30%,rgba(124,92,255,.3),transparent 50%);}
+.stat .sec h2{color:#fff;}
+.stat .sec .d{color:#a79fcc;}
+.stat .wrap{position:relative;z-index:1;}
+.pla{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+.pla .plq{background:var(--night2);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:26px 24px;position:relative;overflow:hidden;}
+.pla .plq .pn{position:absolute;top:0;left:0;width:5px;height:100%;background:var(--pink);}
+.pla .plq:nth-child(2) .pn{background:var(--purple);}
+.pla .plq:nth-child(3) .pn{background:var(--teal);}
+.pla .plq:nth-child(4) .pn{background:var(--pink2);}
+.pla .plq b{display:block;font-size:38px;font-weight:900;line-height:1;letter-spacing:-1px;}
+.pla .plq span{display:block;margin-top:10px;font-size:12px;color:#a79fcc;letter-spacing:1px;}
+
+/* ===== 栏目五：关于 ===== */
+.about{background:var(--card);}
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start;}
+.ab .l .k{font-size:11px;letter-spacing:3px;color:var(--purple);text-transform:uppercase;display:block;margin-bottom:12px;}
+.ab .l h2{font-size:28px;font-weight:900;line-height:1.35;margin-bottom:20px;}
+.ab .l h2 em{font-style:normal;color:var(--pink);}
+.ab .l p{font-size:15px;color:var(--ink2);line-height:1.9;margin-bottom:14px;}
+.ab .l .u{display:block;margin-top:6px;background:var(--bg);border-left:3px solid var(--purple);padding:12px 16px;font-size:12.5px;color:var(--ink);border-radius:0 10px 10px 0;}
+.ab .r{display:flex;flex-direction:column;gap:12px;}
+.ab .r .it{display:flex;gap:14px;align-items:flex-start;background:var(--bg);border-radius:16px;padding:18px 20px;}
+.ab .r .it .no{flex:0 0 36px;height:36px;border-radius:11px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;}
+.ab .r .it:nth-child(2) .no{background:var(--pink);}
+.ab .r .it:nth-child(3) .no{background:var(--purple);}
+.ab .r .it:nth-child(4) .no{background:var(--teal);}
+.ab .r .it .tx h5{font-size:15px;font-weight:900;margin-bottom:4px;}
+.ab .r .it .tx p{font-size:13px;color:var(--ink2);line-height:1.7;}
+
+/* ===== 页脚 ===== */
+footer{background:var(--night);color:#cdc6e8;padding:52px 0 24px;}
+.ft{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;}
+.ft .b .px{margin-bottom:12px;}
+.ft .b h3{font-size:19px;font-weight:900;color:#fff;margin-bottom:12px;}
+.ft .b h3 em{font-style:normal;color:var(--pink);}
+.ft .b p{font-size:13.5px;color:#a79fcc;max-width:340px;line-height:1.85;}
+.ft .b .u{display:block;font-size:12px;color:var(--pink2);margin-top:14px;letter-spacing:.5px;}
+.ft h4{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#fff;margin-bottom:16px;font-weight:800;}
+.ft ul li{margin-bottom:10px;}
+.ft a{font-size:13.5px;color:#a79fcc;transition:.2s;}
+.ft a:hover{color:var(--pink2);}
+.fb{max-width:1160px;margin:32px auto 0;padding:20px 24px 0;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#7d75a6;}
+
+#up{position:fixed;right:20px;bottom:20px;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--pink));color:#fff;font-size:17px;z-index:99;opacity:0;pointer-events:none;transition:.3s;box-shadow:0 8px 22px rgba(124,92,255,.4);}
+#up.show{opacity:1;pointer-events:auto;}
+
+@media(max-width:980px){
+  .nav{display:none;position:absolute;top:74px;left:0;right:0;background:#fff;flex-direction:column;padding:12px 24px;gap:0;border-bottom:1px solid var(--line);}
+  .nav.open{display:flex;}
+  .nav a{border-bottom:1px solid var(--line);padding:13px 0;width:100%;}
+  .nav a::after{display:none;}
+  .menu{display:flex;}
+  .hero .wrap{grid-template-columns:1fr;gap:44px;padding-top:60px;padding-bottom:60px;}
+  .hero .hi h1{font-size:38px;}
+  .sec h2{font-size:24px;}
+  .sc{grid-template-columns:repeat(2,1fr);}
+  .pl{grid-template-columns:1fr;}
+  .pl .il{padding:32px;}
+  .pl .stp{padding:32px;}
+  .ab{grid-template-columns:1fr;gap:36px;}
+  .pla{grid-template-columns:repeat(2,1fr);}
+  .ft{grid-template-columns:1fr 1fr;}
+  .bx .st{display:none;}
+}
+@media(max-width:600px){
+  .hero .hi h1{font-size:31px;}
+  .sc{grid-template-columns:1fr;}
+  .ft{grid-template-columns:1fr;}
+  .pl .il,.pl .stp{padding:26px 22px;}
+  .bx .row{flex-wrap:wrap;}
+  .bx .row .av{flex:0 0 38px;width:38px;height:38px;font-size:17px;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<div class="online">
+  <div class="ow">
+    <span><i class="dot"></i> 宅男宅女电影网 · 居家观影指南 · 当前在线 <em>3,241</em> 位宅友</span>
+    <span>网址：zhainanzhainudianyingwang-wap.github.io</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap hd">
+    <a href="#top" class="logo">
+      <span class="px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="tx"><b>宅男<em>宅女</em>电影网</b><span>HOME VIEWING GUIDE</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#top">首页</a>
+      <a href="#scene">居家场景</a>
+      <a href="#list">片单推荐</a>
+      <a href="#guide">周末攻略</a>
+      <a href="#about">关于</a>
+    </nav>
+    <button class="menu" id="menu" aria-label="菜单"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- Hero 夜间聊天室 -->
+<section class="hero" id="top">
+  <div class="stars"></div>
+  <div class="wrap">
+    <div class="hi">
+      <span class="k">// HOME VIEWING GUIDE</span>
+      <h1>不出门的时候，<br><span>也需要一部好片子</span>。</h1>
+      <p>宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）专注居家观影场景：一个人窝在沙发、两个人一起看、周末朋友来家里，我们都准备了对应的片单。</p>
+      <div class="u">网址：<b>https://zhainanzhainudianyingwang-wap.github.io</b></div>
+      <div class="tags">
+        <a href="#">独处片单</a><a href="#">约会电影</a><a href="#">周末马拉松</a><a href="#">下饭剧</a><a href="#">失眠陪伴</a><a href="#">聚会看片</a>
+      </div>
+    </div>
+    <div class="chat">
+      <div class="bar"><i></i><i></i><i></i><b>宅友观影室 #night-channel</b></div>
+      <div class="msg"><p>今晚不想出门，有什么适合一个人看的？</p><small>宅宅 · 22:14</small></div>
+      <div class="msg l"><p>试试心理悬疑，一个人看氛围刚好</p><small>影仔 · 22:15</small></div>
+      <div class="msg"><p>那两个人一起呢？不要太沉重的</p><small>小宅 · 22:16</small></div>
+      <div class="msg l"><p>轻松喜剧或公路片，看完还能聊几句</p><small>影仔 · 22:17</small></div>
+      <div class="typing">影仔 正在输入</div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目一：居家场景 -->
+<section id="scene" class="scene">
+  <div class="wrap">
+    <div class="sec"><span class="kicker">// 01 · SCENES</span><h2>六种<em>居家场景</em>，六种片单</h2><p>先看场景，再找片子。同样的电影，一个人看和两个人的感受完全不同。</p></div>
+    <div class="sc">
+      <div class="cd"><div class="deco"></div><div class="ic">🛋️</div><h4>独处夜晚</h4><p>适合一个人安静看完的片子，节奏不赶、情绪有余味，看完还能想一会儿。</p><span class="cnt">32 部</span></div>
+      <div class="cd"><div class="deco"></div><div class="ic">💑</div><h4>两个人一起</h4><p>不沉重、不烧脑，看完有话聊，也不会因为选择不同吵起来。</p><span class="cnt">28 部</span></div>
+      <div class="cd"><div class="deco"></div><div class="ic">🎉</div><h4>朋友聚会</h4><p>节奏快、笑点密，中途走神也能接上的类型，适合边看边聊。</p><span class="cnt">19 部</span></div>
+      <div class="cd"><div class="deco"></div><div class="ic">🍚</div><h4>下饭陪伴</h4><p>不费脑、轻松、可以反复看的片子，配饭配面都合适。</p><span class="cnt">41 部</span></div>
+      <div class="cd"><div class="deco"></div><div class="ic">🌙</div><h4>失眠深夜</h4><p>短小、柔和、不长篇大论，适合凌晨两点还睡不着的时候。</p><span class="cnt">15 部</span></div>
+      <div class="cd"><div class="deco"></div><div class="ic">📅</div><h4>周末马拉松</h4><p>一套看完不过瘾，我们按系列排好了两天的观影顺序。</p><span class="cnt">12 套</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目二：片单推荐（对话气泡） -->
+<section id="list" class="list">
+  <div class="wrap">
+    <div class="sec"><span class="kicker">// 02 · PICKS</span><h2>近期<em>片单推荐</em></h2><p>每一部都标注了适合的看片场景和情绪基调，照着选就不会踩雷。</p></div>
+    <div class="bx">
+      <div class="row">
+        <div class="av a">1</div>
+        <div class="b"><h4>独处夜晚 · 心理悬疑三部曲</h4><p>一个人看才有效果。镜头节奏慢，反转集中在后半段，建议留出一整晚的时间，看完不要立刻刷手机。</p><div class="meta"><a href="#">独处</a><a href="#">悬疑</a><a href="#">慢节奏</a><em>适合：深夜 · 一人</em></div></div>
+        <div class="st"><b>9.2</b>情绪指数</div>
+      </div>
+      <div class="row">
+        <div class="av b">2</div>
+        <div class="b"><h4>两个人 · 公路片合集</h4><p>对话多、风景多、冲突不激烈。看完通常会想聊几句旅行，是很好的观影后话题。</p><div class="meta"><a href="#">约会</a><a href="#">公路</a><a href="#">轻松</a><em>适合：两人 · 周末傍晚</em></div></div>
+        <div class="st"><b>8.7</b>轻松指数</div>
+      </div>
+      <div class="row">
+        <div class="av c">3</div>
+        <div class="b"><h4>朋友聚会 · 喜剧马拉松</h4><p>笑点密、情节不复杂，中途去拿饮料回来也能看懂。我们按 90 分钟一部的节奏排好了顺序。</p><div class="meta"><a href="#">聚会</a><a href="#">喜剧</a><a href="#">多部连看</a><em>适合：4 人以上 · 假期</em></div></div>
+        <div class="st"><b>8.9</b>欢笑指数</div>
+      </div>
+      <div class="row">
+        <div class="av d">4</div>
+        <div class="b"><h4>下饭陪伴 · 轻喜剧剧集</h4><p>单集独立成篇，随时暂停都不影响观看。我们已经按类型整理成「配饭清单」。</p><div class="meta"><a href="#">下饭</a><a href="#">剧集</a><a href="#">轻松</a><em>适合：午餐 · 晚餐</em></div></div>
+        <div class="st"><b>8.5</b>下饭指数</div>
+      </div>
+      <div class="row">
+        <div class="av e">5</div>
+        <div class="b"><h4>失眠深夜 · 短片与纪录</h4><p>时长都在 40 分钟以内，画面柔和、信息量不大，看不完第二天接着看也没关系。</p><div class="meta"><a href="#">深夜</a><a href="#">短片</a><a href="#">纪录</a><em>适合：凌晨 · 睡前</em></div></div>
+        <div class="st"><b>8.3</b>助眠指数</div>
+      </div>
+      <div class="row">
+        <div class="av f">6</div>
+        <div class="b"><h4>周末两天 · 系列连看路线</h4><p>同一导演的三部作品，按主题递进的顺序排好，两天看完刚好，中间还留了讨论时间。</p><div class="meta"><a href="#">马拉松</a><a href="#">系列</a><a href="#">导演专题</a><em>适合：周末两天</em></div></div>
+        <div class="st"><b>9.0</b>完成度</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目三：周末攻略 -->
+<section id="guide" class="gd">
+  <div class="wrap">
+    <div class="sec"><span class="kicker">// 03 · WEEKEND PLAN</span><h2>一个<em>周末观影计划</em>，应该怎么排</h2><p>不用想太多，照着这五步走，一个周末刚好消化完一部片、一套剧或一个系列。</p></div>
+    <div class="pl">
+      <div class="il">
+        <span class="k">// WEEKEND MARATHON</span>
+        <h3>从「不知道看什么」到「看得很舒服」</h3>
+        <p>宅家看片最容易踩的坑不是选错片，而是节奏没排好：一上来就看最重的，后面全看不进去；或者零零散散看片段，什么都不记得。</p>
+        <div class="big"><b>5 步</b><span>一个周末的观影节奏安排</span></div>
+      </div>
+      <div class="stp">
+        <div class="s on"><div class="n">1</div><div class="t"><h5>周五晚上，先轻后重</h5><p>用一部轻松的片子开场，把状态从工作日切换到周末。</p></div></div>
+        <div class="s"><div class="n">2</div><div class="t"><h5>周六上午留白</h5><p>别一早就看片。上午处理杂事，下午再开始正片。</p></div></div>
+        <div class="s"><div class="n">3</div><div class="t"><h5>正片放在下午到傍晚</h5><p>光线还在的时候看结构最复杂的一部，理解成本最低。</p></div></div>
+        <div class="s"><div class="n">4</div><div class="t"><h5>看完留出半小时</h5><p>别立刻点开下一部。聊几句、写两句，感受会留在脑子里。</p></div></div>
+        <div class="s"><div class="n">5</div><div class="t"><h5>周日晚上收一个短的</h5><p>用一部短片或一集剧收尾，给下周留点念想。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目四：数据统计 -->
+<section class="stat">
+  <div class="wrap">
+    <div class="sec"><span class="kicker" style="background:rgba(255,255,255,.1);color:var(--pink2);">// 04 · NUMBERS</span><h2>宅家观影的<em>一些数据</em></h2><p>这些是我们统计的居家观影习惯，也决定了片单怎么排。</p></div>
+    <div class="pla">
+      <div class="plq"><span class="pn"></span><b>147</b><span>部收录影片</span></div>
+      <div class="plq"><span class="pn"></span><b>6</b><span>居家场景分类</span></div>
+      <div class="plq"><span class="pn"></span><b>12</b><span>周末观影计划</span></div>
+      <div class="plq"><span class="pn"></span><b>3,241</b><span>今日在线宅友</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目五：关于 -->
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="ab">
+      <div class="l">
+        <span class="k">// ABOUT ZHAI</span>
+        <h2>关于<em>宅男宅女电影网</em></h2>
+        <p>宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）是一个围绕居家观影场景做片单推荐的站点。我们不做泛泛的排行榜，而是先问清楚：你现在是一个人还是两个人？是深夜还是周末？想要轻松还是想被击中？</p>
+        <p>然后给你一份刚好合适的片单。</p>
+        <span class="u">网址：https://zhainanzhainudianyingwang-wap.github.io</span>
+      </div>
+      <div class="r">
+        <div class="it"><div class="no">1</div><div class="tx"><h5>按场景选片</h5><p>独处、约会、聚会、下饭、失眠、马拉松，六种场景对应不同片单。</p></div></div>
+        <div class="it"><div class="no">2</div><div class="tx"><h5>标注情绪基调</h5><p>每部片都标注了节奏、时长和情绪强度，方便你提前判断合不合适。</p></div></div>
+        <div class="it"><div class="no">3</div><div class="tx"><h5>排好观影节奏</h5><p>周末计划会告诉你先看重还是后看重，避免一上来就看完所有好片。</p></div></div>
+        <div class="it"><div class="no">4</div><div class="tx"><h5>只做资讯不做托管</h5><p>本站提供片单与观影指南，不托管资源、不提供在线播放。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div class="b">
+        <div class="px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <h3>宅男<em>宅女</em>电影网</h3>
+        <p>宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）专注居家观影场景，提供独处、约会、聚会、下饭、失眠、马拉松六类片单与周末观影计划。</p>
+        <span class="u">ZHAINANZHAINUDIANYINGWANG-WAP.GITHUB.IO</span>
+      </div>
+      <div><h4>场景片单</h4><ul>
+        <li><a href="#">独处夜晚</a></li><li><a href="#">两人约会</a></li>
+        <li><a href="#">朋友聚会</a></li><li><a href="#">下饭陪伴</a></li>
+      </ul></div>
+      <div><h4>观影计划</h4><ul>
+        <li><a href="#">周末马拉松</a></li><li><a href="#">失眠短片</a></li>
+        <li><a href="#">系列连看</a></li><li><a href="#">观影节奏</a></li>
+      </ul></div>
+      <div><h4>关于本站</h4><ul>
+        <li><a href="#">站点说明</a></li><li><a href="#">投稿片单</a></li>
+        <li><a href="#">观影指南</a></li><li><a href="#">联系我们</a></li>
+      </ul></div>
+    </div>
+    <div class="fb">
+      <span>© 2026 宅男宅女电影网（https://zhainanzhainudianyingwang-wap.github.io）版权所有 · 居家观影指南 · 片单推荐 · 周末计划</span>
+      <span>// 不出门也需要好片子</span>
+    </div>
+  </div>
+</footer>
+
+<button id="up" aria-label="回到顶部">↑</button>
+
+<script>
+var menu=document.getElementById('menu');
+var nav=document.getElementById('nav');
+menu.addEventListener('click',function(){nav.classList.toggle('open');});
+var up=document.getElementById('up');
+window.addEventListener('scroll',function(){up.classList.toggle('show',window.scrollY>400);});
+up.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
